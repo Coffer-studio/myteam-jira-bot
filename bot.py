@@ -253,3 +253,14 @@ bot.dispatcher.add_handler(MessageHandler(callback=message_cb))
 bot.dispatcher.add_handler(BotButtonCommandHandler(callback=buttons_answer_cb))
 bot.start_polling()
 bot.idle()
+
+
+# добавить
+# def send_alert():
+#     for chat in chats_to_send_notifications:
+#         bot.send_text(chat_id=chat, text=text_to_send)
+
+# schedule.every().day.at("23:27").do(send_alert)
+# while True:
+#     schedule.run_pending()
+#     time.sleep(1)
