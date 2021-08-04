@@ -252,4 +252,4 @@ def message_cb(bot, event):
 bot.dispatcher.add_handler(MessageHandler(callback=message_cb))
 bot.dispatcher.add_handler(BotButtonCommandHandler(callback=buttons_answer_cb))
 bot.start_polling()
-bot.idle()  
+bot.idle()
